@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Next.js project
 
-## Getting Started
 
-First, run the development server:
+## Simple E-Commerce Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is a basic online shopping experience, built to showcase essential e-commerce functionalities. It includes features like product listings, detailed product pages, a shopping cart, and checkout processes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- *Navbar:*  
+  A navigation bar with links to the Home page, Men’s page, Women’s page, Tennis page, and Cart.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- *Hero Section:*  
+  The hero section features two images and a quick navigation menu for easy access to different sections of the store.
 
-## Learn More
+- *Newest Products:*  
+  Displays the latest products available in the store.
 
-To learn more about Next.js, take a look at the following resources:
+- *Product Pages:*  
+  Each product page provides detailed information about the selected item.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- *Category Pages:*  
+  - *Men:* Showcases products specifically for men.
+  - *Women:* Showcases products specifically for women.
+  - *Tennis:* Displays products related to tennis.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- *Cart and Checkout:*  
+  The cart page shows all selected products, with an option to proceed to checkout.
 
-## Deploy on Vercel
+### Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- @radix-ui/react-dialog
+- @radix-ui/react-slot
+- @sanity/image-url
+- @stripe/stripe-js
+- class-variance-authority
+- clsx
+- lucide-react
+- next-sanity
+- react-icons
+- tailwind-merge
+- tailwindcss-animate
+- use-shopping-cart
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+
+
